@@ -12,7 +12,17 @@ const HomePage = () => {
   return (
     <div>
       <h1>{pluginId}&apos;s HomePage</h1>
-      <p>Happy coding</p>
+      <h1>Register FanCourier Credentials</h1>
+      <div>
+        <label htmlFor="username">Username</label>
+        <input type="text" name="username" />
+
+        <label htmlFor="password">Password</label>
+        <input type="password" name="password" />
+
+        <label htmlFor='clientId' name="clientId">Client ID</label>
+        <input type="text" name="clientId" />
+      </div>
     </div>
   );
 };
